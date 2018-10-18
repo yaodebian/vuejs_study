@@ -1,13 +1,20 @@
 <template>
   <div>
-    <h2>组件应用</h2>
+    <h2>组件应用: {{area}}</h2>
     <router-view></router-view>
   </div>
 </template>
 <script>
 export default {
   data () {
-    return {}
+    return {
+      area: ''
+    }
+  },
+  methods: {
+    usage (area) {
+      this.area = area
+    }
   }
 }
 </script>
