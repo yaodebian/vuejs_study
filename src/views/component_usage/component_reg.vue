@@ -1,5 +1,6 @@
 <template>
   <div id="component_reg">
+    <h2>组件注册</h2>
     <global-component1 msg="全局组件注册：短横线分隔命名"></global-component1>
     <global-component2 msg="全局组件注册：驼峰式命名-短横线分隔写法"></global-component2>
     <globalComponent2 msg="全局组件注册：驼峰式命名-驼峰式写法"></globalComponent2>

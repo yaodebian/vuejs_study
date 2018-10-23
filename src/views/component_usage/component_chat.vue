@@ -1,5 +1,6 @@
 <template>
   <div id="component_chat">
+    <h2>组件通信</h2>
     <!-- 1.通过prop父组件向子组件传递数据 -->
     <p-to-s name="露西"></p-to-s>
     <br>
@@ -51,7 +52,7 @@ export default {
                   <button @click="send">通知</button>
                 </div>`,
       methods: {
-        send() {
+        send () {
           temp.$emit('tobrother', this.thing)
         }
       }
