@@ -1,21 +1,11 @@
 # vuejs_study
 
-> A Vue.js project
+> A vuejs study demo project!!!
 
-## Build Setup
+## 目录
+* 组件应用（src/views/component_usage）
+    * 组件注册（/component_reg）
+    * 组件通信（/component_chat）
+    * 动态组件（/component_dynamic）
+    * 异步组件（/component_async）
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
