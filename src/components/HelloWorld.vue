@@ -34,6 +34,10 @@ export default {
             {
               name: '4.异步组件',
               path: '/component/component_async'
+            },
+            {
+              name: '5.组件插槽',
+              path: '/component/component_slot'
             }
           ]
         }

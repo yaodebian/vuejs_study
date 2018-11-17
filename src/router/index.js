@@ -8,6 +8,7 @@ import ComponentReg from '@/views/component_usage/1_component_reg'
 import ComponentChat from '@/views/component_usage/2_component_chat'
 import ComponentDynamic from '@/views/component_usage/3_component_dynamic'
 import ComponentAsync from '@/views/component_usage/4_component_async'
+import ComponentSlot from '@/views/component_usage/5_component_slot'
 
 Vue.use(Router)
 
@@ -42,6 +43,11 @@ export default new Router({
           path: 'component_async',
           name: 'component_async',
           component: ComponentAsync
+        },
+        {
+          path: 'component_slot',
+          name: 'component_slot',
+          component: ComponentSlot
         }
       ]
     }
