@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+
+// 组件运用
 import ComponentIndex from '@/views/component_usage/index'
-import ComponentReg from '@/views/component_usage/component_reg'
-import ComponentChat from '@/views/component_usage/component_chat'
-import ComponentDynamic from '@/views/component_usage/component_dynamic'
-import ComponentAsync from '@/views/component_usage/component_async'
+import ComponentReg from '@/views/component_usage/1_component_reg'
+import ComponentChat from '@/views/component_usage/2_component_chat'
+import ComponentDynamic from '@/views/component_usage/3_component_dynamic'
+import ComponentAsync from '@/views/component_usage/4_component_async'
 
 Vue.use(Router)
 

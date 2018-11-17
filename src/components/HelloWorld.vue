@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
     <h1>welcome to vuejs study</h1>
-    <nav v-for="nav in link">
+    <nav v-for="nav in link" v-bind:key="nav.name">
       <h2 v-text="nav.name"></h2>
       <ul>
-        <li v-for="item in nav.list"><router-link :to="item.path" v-text="item.name"></router-link></li>
+        <li v-for="item in nav.list" v-bind:key="item.key"><router-link :to="item.path" v-text="item.name"></router-link></li>
       </ul>
     </nav>
   </div>
@@ -15,7 +15,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      link:[
+      link: [
         {
           name: 'vuejs组件开发',
           list: [
