@@ -10,3 +10,4 @@
     * 4.异步组件（/4_component_async）
     * 5.组件插槽（/5_component_slot）
     * 6.递归组件与组件间循环引用（/6_recursionCom_and_circleReferences）
+    * 7.访问元素&组件（/7_ele_&_com_access）
