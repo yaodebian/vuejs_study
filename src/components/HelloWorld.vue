@@ -42,6 +42,10 @@ export default {
             {
               name: '6.递归组件与组件间循环引用',
               path: '/component/recursion_circle'
+            },
+            {
+              name: '7.访问元素&组件',
+              path: '/component/ele_com_access'
             }
           ]
         }

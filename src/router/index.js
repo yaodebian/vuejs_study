@@ -10,6 +10,7 @@ import ComponentDynamic from '@/views/component_usage/3_component_dynamic'
 import ComponentAsync from '@/views/component_usage/4_component_async'
 import ComponentSlot from '@/views/component_usage/5_component_slot'
 import RecursionCircle from '@/views/component_usage/6_recursionCom_and_circleReferences'
+import EleComAccess from '@/views/component_usage/7_ele_&_com_access'
 
 Vue.use(Router)
 
@@ -54,6 +55,11 @@ export default new Router({
           path: 'recursion_circle',
           name: 'recursion_circle',
           component: RecursionCircle
+        },
+        {
+          path: 'ele_com_access',
+          name: 'ele_com_access',
+          component: EleComAccess
         }
       ]
     }
