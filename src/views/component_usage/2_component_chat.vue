@@ -2,15 +2,20 @@
   <div id="component_chat">
     <h2>组件通信</h2>
     <!-- 1.通过prop父组件向子组件传递数据 -->
+    <h3>1.通过prop父组件向子组件传递数据</h3>
     <p-to-s name="露西"></p-to-s>
     <br>
+
     <!-- 2.通过事件子组件向负组件传递数据 -->
+    <h3>2.通过事件子组件向负组件传递数据</h3>
     <div>
       <s-to-p name="杰克" @tofather="tellDadName"></s-to-p>
       <p>son: 爸爸的名字是{{dadName}}。</p>
     </div>
     <br>
+
     <!-- 3.兄弟组件之间传递数据 -->
+    <h3>3.兄弟组件之间传递数据</h3>
     <brother1 thing="便担"></brother1>
     <brother2></brother2>
   </div>

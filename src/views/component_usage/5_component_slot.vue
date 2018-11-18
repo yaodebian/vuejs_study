@@ -2,12 +2,15 @@
   <div id="component_slot">
     <h2>组件插槽</h2>
     <!-- first demo演示 -->
+    <h3>1. first demo演示</h3>
     <com-slot1 url="https://github.com/yaodebian">yaodebian</com-slot1>
     <br>
     <br>
 
     <!-- 具名插槽 -->
+    <h3>2. 具名插槽</h3>
     <!-- 1. 通过template来进行插槽内容设置 -->
+    <h4>a. 通过template来进行插槽内容设置</h4>
     <com-slot2>
       <template slot="header">
         <h2>Here might be a page title</h2>
@@ -24,6 +27,7 @@
 
     </com-slot2>
     <!-- 2. 通过普通元素来进行插槽内容设置 -->
+    <h4>b. 通过普通元素来进行插槽内容设置</h4>
     <com-slot2>
       <h2 slot="header">Here might be a page title</h2>
 
@@ -38,14 +42,18 @@
     <br>
 
     <!-- 默认插槽演示及运用 -->
+    <h3>3. 默认插槽演示及运用</h3>
     <!-- 当没有设置插槽内容时，会使用默认插槽内容 -->
+    <h4>a. 当没有设置插槽内容时，会使用默认插槽内容</h4>
     <com-slot3></com-slot3>
     <!-- 当设置插槽内容，使用手动设置的插槽内容 -->
+    <h4>b. 当设置插槽内容，使用手动设置的插槽内容</h4>
     <com-slot3>yaodebian</com-slot3>
     <br>
     <br>
 
     <!-- 编译作用域 -->
+    <h3>4. 编译作用域</h3>
     <com-slot4 tag="test">
       <!-- 由于以下的tag、name、age是在父组件的作用域下，故而会报错 -->
       <!-- <h2>{{tag}}</h2>
@@ -57,6 +65,7 @@
     <br>
 
     <!-- 作用域插槽 -->
+    <h3>5. 作用域插槽</h3>
     <com-slot5 v-bind:todos="todos">
       <!-- 将 `slotProps` 定义为插槽作用域的名字 -->
       <!-- <template slot-scope="slotProps"> -->
