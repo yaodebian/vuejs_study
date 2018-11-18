@@ -46,6 +46,10 @@ export default {
             {
               name: '7.访问元素&组件',
               path: '/component/ele_com_access'
+            },
+            {
+              name: '8.程序化的事件侦听器',
+              path: '/component/pro_ev_listener'
             }
           ]
         }
