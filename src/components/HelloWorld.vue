@@ -38,6 +38,10 @@ export default {
             {
               name: '5.组件插槽',
               path: '/component/component_slot'
+            },
+            {
+              name: '6.递归组件与组件间循环引用',
+              path: '/component/recursion_circle'
             }
           ]
         }

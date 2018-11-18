@@ -9,6 +9,7 @@ import ComponentChat from '@/views/component_usage/2_component_chat'
 import ComponentDynamic from '@/views/component_usage/3_component_dynamic'
 import ComponentAsync from '@/views/component_usage/4_component_async'
 import ComponentSlot from '@/views/component_usage/5_component_slot'
+import RecursionCircle from '@/views/component_usage/6_recursionCom_and_circleReferences'
 
 Vue.use(Router)
 
@@ -48,6 +49,11 @@ export default new Router({
           path: 'component_slot',
           name: 'component_slot',
           component: ComponentSlot
+        },
+        {
+          path: 'recursion_circle',
+          name: 'recursion_circle',
+          component: RecursionCircle
         }
       ]
     }
