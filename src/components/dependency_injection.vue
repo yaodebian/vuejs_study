@@ -5,7 +5,7 @@
       <span>name: {{name}}</span>
       <span>age: {{age}}</span>
     </div>
-    <!-- 负组件的name、age值改变了，但是子组件的却仍然是初始化的值 -->
+    <!-- 父组件的name、age值改变了，但是子组件的却仍然是初始化的值 -->
     <ancestor-data></ancestor-data>
   </div>
 </template>
