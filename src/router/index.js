@@ -12,6 +12,8 @@ import ComponentSlot from '@/views/component_usage/5_component_slot'
 import RecursionCircle from '@/views/component_usage/6_recursionCom_and_circleReferences'
 import EleComAccess from '@/views/component_usage/7_ele_&_com_access'
 import ProEvListener from '@/views/component_usage/8_program_event_listeners'
+import TemplateDefinition from '@/views/component_usage/9_template_definition'
+import ControlUpdate from '@/views/component_usage/10_control_update'
 
 Vue.use(Router)
 
@@ -66,6 +68,16 @@ export default new Router({
           path: 'pro_ev_listener',
           name: 'pro_ev_listener',
           component: ProEvListener
+        },
+        {
+          path: 'template_definition',
+          name: 'template_definition',
+          component: TemplateDefinition
+        },
+        {
+          path: 'control_update',
+          name: 'control_update',
+          component: ControlUpdate
         }
       ]
     }

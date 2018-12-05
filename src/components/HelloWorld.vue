@@ -50,6 +50,14 @@ export default {
             {
               name: '8.程序化的事件侦听器',
               path: '/component/pro_ev_listener'
+            },
+            {
+              name: '9.模板定义替代品',
+              path: '/component/template_definition'
+            },
+            {
+              name: '10.控制更新',
+              path: '/component/control_update'
             }
           ]
         }
